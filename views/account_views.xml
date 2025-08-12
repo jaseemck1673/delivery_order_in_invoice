@@ -9,7 +9,7 @@
                 <button class="oe_stat_button"
                         name="action_view_delivery_orders"
                         type="object"
-                        icon="fa-truck" invisible="delivery_count == 0">
+                        icon="fa-truck">
                     <field name="delivery_count" string="Shipment" widget="statinfo"/>
                 </button>
             </xpath>
